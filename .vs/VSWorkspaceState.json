@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\front-ventas",
-    "\\front-ventas\\src",
-    "\\front-ventas\\src\\app",
-    "\\front-ventas\\src\\app\\ventas"
+    "\\front-ventas"
   ],
-  "SelectedNode": "\\front-ventas",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
