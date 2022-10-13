@@ -1,0 +1,29 @@
+<mat-toolbar color="primary">
+  <app-autorizado [rol]="'admin'">
+    <ng-container autorizado>
+    <span>
+        <a routerLink="" mat-button>
+            <mat-icon>local_movies</mat-icon> Ramiro Estrada M.
+        </a>
+    </span>
+    
+    <div>
+        <a mat-button routerLink="ventas">
+        VENTAS</a>
+    </div>
+
+</ng-container>
+</app-autorizado>
+<div class="espacio"></div>
+
+<app-autorizado>
+  <ng-container autorizado>
+  <span>Hola, {{seguridadService.obtenerCampoJWT('email')}}</span>
+  <a mat-button (click)="Logout()">Logout</a>
+</ng-container>
+<ng-container noAutorizado>
+  <a mat-button routerLink="login">Login</a>
+</ng-container>
+</app-autorizado>
+    </mat-toolbar>
+
