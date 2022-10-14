@@ -8,7 +8,8 @@ Material Design.
 usar el comando para descargar librerias:
 npm install
 
-Vista de Ejemplo de trabajo en memoria:
+***NOTA:
+Vista de Ejemplo de trabajo en memoria en el branch "Memory".
 
 LOGIN: usuario esta autentificado desde el API Service, el cual crea el JWT
 ![image](https://user-images.githubusercontent.com/6478339/195913587-a8aedaf5-29a3-45b2-991f-d86d24853534.png)
