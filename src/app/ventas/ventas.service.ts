@@ -20,12 +20,12 @@ export class VentasService {
 */
 
   public obtenerTodos(){
-    return this.http.get<RespuestaVenta>(`${this.apiURL}/todos`);
+    return this.http.get<RespuestaVenta>(`${this.apiURL}/GetAllMemory`);
   }
 
   public crear(venta: ventaCreacionDTO) {
     const formData = this.ConstruirFormData(venta);
-    return this.http.post(`${this.apiURL}/insert`, formData);
+    return this.http.post(`${this.apiURL}/InsertMemory`, formData);
   }
 /*
   public calculate(notas: notasCreacionDTO){
